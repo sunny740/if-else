@@ -1,7 +1,3 @@
-#num1=10
-#num2=20
-#num3=num1+num2
-#echo $((num3))
 
 echo $((RANDOM%10))
 
@@ -10,7 +6,7 @@ if(($random==1))
 then
      echo "One"
 elif(($random==2))
-then 
+then
      echo "Two"
 elif (($random==3))
 then
@@ -25,3 +21,4 @@ else
     echo "Six"
 fi
 echo "Random:"$random
+
